@@ -16,6 +16,6 @@ https://expo.io/@player0/projects/pokedex_expo
 
 Скриншот:
 
-![Покедекс 2](http://test.u10647.stark.vps-private.net/pokedex2.jpg =250x)
+<img src="http://test.u10647.stark.vps-private.net/pokedex2.jpg" alt="Скриншот 2" width="250"/>
 
-![Покедекс 1](http://test.u10647.stark.vps-private.net/pokedex1.jpg =250x)
+<img src="http://test.u10647.stark.vps-private.net/pokedex1.jpg" alt="Скриншот 1" width="250"/>
