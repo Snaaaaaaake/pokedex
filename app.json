@@ -1,32 +1,35 @@
 {
   "expo": {
-    "name": "pokedex",
-    "slug": "pokedex",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "name": "Pokedex",
+	"description": "Карманный справочник по покемонам!",
+	"platforms": ["android"],
+    "slug": "pokedex_expo",
+    "version": "1.0.2",
+    "orientation": "default",
+    "icon": "./assets/pokeball.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/pokeball.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#BF3030"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+	"package": "com.methegreat.pokedex_expo_app",
+	"versionCode": 1,
+	"permissions": [],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/pokeball.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/pokeball.png"
     }
   }
 }
